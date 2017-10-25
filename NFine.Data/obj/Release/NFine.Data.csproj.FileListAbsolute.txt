@@ -1,0 +1,16 @@
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\NFine.Data.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\NFine.Data.pdb
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\EntityFramework.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\EntityFramework.SqlServer.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\NFine.Code.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\Newtonsoft.Json.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\log4net.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\NPOI.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\ICSharpCode.SharpZipLib.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\NFine.Code.pdb
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\EntityFramework.xml
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\bin\Release\EntityFramework.SqlServer.xml
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\obj\Release\NFine.Data.csprojResolveAssemblyReference.cache
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\obj\Release\NFine.Data.csproj.CoreCompileInputs.cache
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\obj\Release\NFine.Data.dll
+F:\HuiBinWeb\HuiBinWeb\NFine.Data\obj\Release\NFine.Data.pdb
