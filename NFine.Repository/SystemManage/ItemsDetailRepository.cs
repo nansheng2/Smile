@@ -26,7 +26,7 @@ namespace NFine.Repository.SystemManage
                             WHERE   1 = 1
                                     AND i.F_EnCode = @enCode
                                     AND d.F_EnabledMark = 1
-                                    AND d.F_DeleteMark = 0
+                                    AND (d.F_DeleteMark is Null or d.F_DeleteMark = 0)
                             ORDER BY d.F_SortCode ASC");
             DbParameter[] parameter = 
             {

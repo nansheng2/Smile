@@ -2454,7 +2454,7 @@ Simditor = (function(superClass) {
     placeholder: '',
     defaultImage: 'images/image.png',
     params: {},
-    upload: false,
+    upload: true,
     indentWidth: 40
   };
 
@@ -4331,7 +4331,7 @@ ImageButton = (function(superClass) {
         if ($input) {
           $input.remove();
         }
-        return $input = $('<input/>', {
+        return $input = $('<input name=“fileData”/>', {
           type: 'file',
           title: _this._t('uploadImage'),
           multiple: true,
@@ -4727,7 +4727,7 @@ ImagePopover = (function(superClass) {
         if (_this.input) {
           _this.input.remove();
         }
-        return _this.input = $('<input/>', {
+        return _this.input = $('<input name=“fileData”/>', {
           type: 'file',
           title: _this._t('uploadImage'),
           multiple: true,

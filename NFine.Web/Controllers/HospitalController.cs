@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using NFine.Web.Areas.UIManage.Controllers;
 using System.Configuration;
 
 namespace NFine.Web.Controllers
@@ -39,7 +38,7 @@ namespace NFine.Web.Controllers
         /// <returns></returns>
         public string GetDoctorList()
         {
-            var server = new DoctorController();
+            
 
             return "";
         }
