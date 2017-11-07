@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="01 Infrastructure\DbLogType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proudct\ProductApp.cs" />
+    <Compile Include="Proudct\ProductImageApp.cs" />
+    <Compile Include="Proudct\SpecificationApp.cs" />
     <Compile Include="SystemManage\DoctorApp.cs" />
     <Compile Include="SystemManage\ItemsApp.cs" />
     <Compile Include="SystemManage\ItemsDetailApp.cs" />
@@ -84,6 +87,7 @@
       <Name>NFine.Repository</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

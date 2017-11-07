@@ -93,6 +93,9 @@
     <Compile Include="03 Entity\Enums\OrderTimeTypeEnum.cs" />
     <Compile Include="03 Entity\Enums\OrderTypeEnum.cs" />
     <Compile Include="03 Entity\Enums\WeekEnum.cs" />
+    <Compile Include="03 Entity\Product\ProductEntity.cs" />
+    <Compile Include="03 Entity\Product\ProductImageEntity.cs" />
+    <Compile Include="03 Entity\Product\SpecificationEntity.cs" />
     <Compile Include="03 Entity\SystemManage\AreaEntity.cs" />
     <Compile Include="03 Entity\SystemManage\CloseOrderEntity.cs" />
     <Compile Include="03 Entity\SystemManage\DoctorEntity.cs" />
@@ -109,6 +112,9 @@
     <Compile Include="03 Entity\SystemSecurity\FilterIPEntity.cs" />
     <Compile Include="03 Entity\SystemSecurity\LogEntity.cs" />
     <Compile Include="02 ViewModel\AuthorizeActionModel.cs" />
+    <Compile Include="04 IRepository\Prodcut\IProductImageRepository.cs" />
+    <Compile Include="04 IRepository\Prodcut\IProductRepository.cs" />
+    <Compile Include="04 IRepository\Prodcut\ISpecificationRepository.cs" />
     <Compile Include="04 IRepository\SystemManage\IAreaRepository.cs" />
     <Compile Include="04 IRepository\SystemManage\ICloseOrderRepository.cs" />
     <Compile Include="04 IRepository\SystemManage\IDoctorRepository.cs" />
@@ -156,6 +162,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

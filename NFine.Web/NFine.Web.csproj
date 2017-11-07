@@ -115,6 +115,7 @@
     <Content Include="Content\img\alipay.jpg" />
     <Content Include="Content\img\alipayimg.png" />
     <Content Include="Content\img\button_pm_close.png" />
+    <Content Include="Content\img\cp_img_sc.png" />
     <Content Include="Content\img\cy-reward-title-bg.jpg" />
     <Content Include="Content\img\loading.gif" />
     <Content Include="Content\img\pages\bodybg.png" />
@@ -364,6 +365,7 @@
     <Content Include="Content\js\wdtree\images\tree\loading.gif" />
     <Content Include="Content\js\wdtree\tree.css" />
     <Content Include="Content\js\wdtree\tree.js" />
+    <Content Include="Content\js\webuploader\demo.js" />
     <Content Include="Content\js\webuploader\Uploader.swf" />
     <Content Include="Content\js\webuploader\webuploader.css" />
     <Content Include="Content\js\webuploader\webuploader.custom.js" />
@@ -402,6 +404,8 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\ProductManage\Controllers\ProductController.cs" />
+    <Compile Include="Areas\ProductManage\Controllers\ProductImageController.cs" />
+    <Compile Include="Areas\ProductManage\Controllers\SpecificationController.cs" />
     <Compile Include="Areas\ProductManage\ProductManageAreaRegistration.cs" />
     <Compile Include="Areas\SystemManage\Controllers\AreaController.cs" />
     <Compile Include="Areas\SystemManage\Controllers\DutyController.cs" />
@@ -499,8 +503,11 @@
     <Content Include="Areas\SystemManage\Views\web.config" />
     <Content Include="Areas\SystemSecurity\Views\web.config" />
     <Content Include="Areas\ProductManage\Views\Product\Form.cshtml" />
-    <Content Include="Areas\ProductManage\Views\Product\Index.cshtml" />
+    <Content Include="Areas\ProductManage\Views\Product\Index1.cshtml" />
     <Content Include="Areas\ProductManage\Views\web.config" />
+    <Content Include="Areas\ProductManage\Views\Product\Index.cshtml" />
+    <Content Include="Areas\ProductManage\Views\Product\ProductIndex.cshtml" />
+    <Content Include="Areas\ProductManage\Views\Product\ProductForm.cshtml" />
     <None Include="packages.config" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Properties\PublishProfiles\NFine.Framework.Release.pubxml" />

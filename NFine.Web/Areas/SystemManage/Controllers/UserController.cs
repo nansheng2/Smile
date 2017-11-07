@@ -19,6 +19,12 @@ namespace NFine.Web.Areas.SystemManage.Controllers
         private UserApp userApp = new UserApp();
         private UserLogOnApp userLogOnApp = new UserLogOnApp();
 
+        /// <summary>
+        /// 获取列表
+        /// </summary>
+        /// <param name="pagination">条件</param>
+        /// <param name="keyword">关键字</param>
+        /// <returns></returns>
         [HttpGet]
         [HandlerAjaxOnly]
         public ActionResult GetGridJson(Pagination pagination, string keyword)
@@ -32,6 +38,12 @@ namespace NFine.Web.Areas.SystemManage.Controllers
             };
             return Content(data.ToJson());
         }
+
+        /// <summary>
+        /// 获取详情信息
+        /// </summary>
+        /// <param name="keyValue"></param>
+        /// <returns></returns>
         [HttpGet]
         [HandlerAjaxOnly]
         public ActionResult GetFormJson(string keyValue)
@@ -39,6 +51,14 @@ namespace NFine.Web.Areas.SystemManage.Controllers
             var data = userApp.GetForm(keyValue);
             return Content(data.ToJson());
         }
+
+        /// <summary>
+        /// 保存数据
+        /// </summary>
+        /// <param name="userEntity">实体对象</param>
+        /// <param name="userLogOnEntity"></param>
+        /// <param name="keyValue"></param>
+        /// <returns></returns>
         [HttpPost]
         [HandlerAjaxOnly]
         [ValidateAntiForgeryToken]
@@ -47,6 +67,12 @@ namespace NFine.Web.Areas.SystemManage.Controllers
             userApp.SubmitForm(userEntity, userLogOnEntity, keyValue);
             return Success("操作成功。");
         }
+
+        /// <summary>
+        /// 删除数据
+        /// </summary>
+        /// <param name="keyValue"></param>
+        /// <returns></returns>
         [HttpPost]
         [HandlerAuthorize]
         [HandlerAjaxOnly]
@@ -56,6 +82,8 @@ namespace NFine.Web.Areas.SystemManage.Controllers
             userApp.DeleteForm(keyValue);
             return Success("删除成功。");
         }
+
+
         [HttpGet]
         public ActionResult RevisePassword()
         {
